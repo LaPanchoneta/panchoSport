@@ -18,11 +18,17 @@
     padding-left: 5%;
     font-size: 400%;
     padding-bottom: 2%;
+    color: #FAEBBC;
 }
 
 #titulo h2 {
     font-size: 30px;
+    color: #FAEBBC;
+}
 
+
+h2{
+    color: white;
 }
 
 #foto {
@@ -37,13 +43,13 @@ header {
 }
 
 body {
-    background-color: #151515;
+    background-color: #500f02   ;
 }
 
 #contenedor_titulo {
-    background-color: #A91D3A;
-    border-bottom: 5px solid #151515;
-    border-top: 5px solid #151515;
+    margin: 15px;
+    background-color: rgb(192, 37, 20);
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,14 +61,15 @@ menu {
     overflow: hidden;
     position: sticky;
     top: 0;
+    
 
 }
 
 .interior {
     max-width: 100%;
-    padding: 0 10px;
-    margin: auto;
-    background-color: #9c667d;
+    padding: 1px;
+    background-color: rgb(192, 37, 20);
+    border-radius: 90px;
 }
 
 .navegacion {
@@ -94,7 +101,7 @@ menu {
 }
 
 .navegacion ul li a {
-    color: rgb(229, 233, 182);
+    color: rgb(255, 255, 253);
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
@@ -108,7 +115,7 @@ menu {
     width: 800px;
     height: 500px;
     overflow:hidden;
-    background-color: black;
+    background-color: #F4C33E;
 }
 /*Valores de las imagenes*/
 #slider img{
@@ -122,3 +129,52 @@ menu {
     opacity: 0;
 }
 /*Para que la primera imagen este activa al inicio*/
+
+#productos_title{
+    margin-top: 10px;
+    font-size: 90px;
+}
+
+
+.compras img{
+    width: 300px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.titulo_producto{
+    text-align: center;
+    margin: 2px;
+    margin-top: 15px;
+    font-size: 30px;
+
+}
+
+.talle{
+    font-size:  14px ;
+    color: white;
+    padding-left: 20px;
+}
+
+.precio{
+    font-size:  20px ;
+    color: white;
+    padding-left: 20px;
+}
+
+
+article{
+    display: inline-block;
+   
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 15px;
+    background-color: rgb(216, 40, 21);
+}
+
+.compras{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
