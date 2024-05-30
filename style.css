@@ -43,7 +43,7 @@ header {
 }
 
 body {
-    background-color: #500f02   ;
+    background-color: #0a0808   ;
 }
 
 #contenedor_titulo {
@@ -70,6 +70,7 @@ menu {
     padding: 1px;
     background-color: rgb(192, 37, 20);
     border-radius: 90px;
+    margin: 15px ;
 }
 
 .navegacion {
