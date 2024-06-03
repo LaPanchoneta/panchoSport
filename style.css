@@ -1,12 +1,4 @@
-@font-face {
-    font-family: 'BROTHER';
-    src: url('Pancho Sport\FILE\BrightSight 02\BRIGHTSIGHT02.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
-
 * {
-    font-family: 'BROTHER';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
