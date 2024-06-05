@@ -9,3 +9,10 @@ console.log("esta pagina es visitada por mas de 50 mil personas por dia, y por m
 const fecha= new Date();
 const msg= ('ingreso a la pagina: '+ fecha)
 console.log( msg)
+//Nacho
+let play = document.getElementById("play")
+    function playAudio(){
+        let audio= new Audio("random.mp3")
+        audio.play()
+    }
+    play.addEventListener("click", playAudio);
