@@ -16,3 +16,10 @@ let play = document.getElementById("play")
         audio.play()
     }
     play.addEventListener("click", playAudio);
+
+window.open("./ofertas.html"); // abre una ventana emergente al entrar a la pagina web (algunos navegadores la bloquean automaticamente) - uziel
+
+
+play.onclick = function() { // al clickear en "botoncito" este usa una animacion que lo cambia gradualmente a color rojo mediante CSS y JS -uziel
+    this.style.backgroundColor = '#C02514';
+};
