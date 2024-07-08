@@ -18,8 +18,12 @@
     color: #FAEBBC;
 }
 
+p{
+    color: white;
+    font-size: 23px;
+}
 
-h2{
+h2 {
     color: white;
 }
 
@@ -35,7 +39,7 @@ header {
 }
 
 body {
-    background-color: #0a0808   ;
+    background-color: #0a0808;
 }
 
 #contenedor_titulo {
@@ -53,7 +57,7 @@ menu {
     overflow: hidden;
     position: sticky;
     top: 0;
-    
+
 
 }
 
@@ -62,7 +66,7 @@ menu {
     padding: 1px;
     background-color: rgb(192, 37, 20);
     border-radius: 90px;
-    margin: 15px ;
+    margin: 15px;
 }
 
 .navegacion {
@@ -102,16 +106,18 @@ menu {
     padding: 12px 20px;
     transition: .3s linear;
 }
+
 /* carrusel */
-#slider{
+#slider {
     margin: 0 auto;
     width: 800px;
     height: 500px;
-    overflow:hidden;
+    overflow: hidden;
     background-color: #F4C33E;
 }
+
 /*Valores de las imagenes*/
-#slider img{
+#slider img {
     margin: 0 auto;
     -moz-transition: opacity 2s;
     -webkit-transition: opacity 2s;
@@ -121,21 +127,22 @@ menu {
     position: absolute;
     opacity: 0;
 }
+
 /*Para que la primera imagen este activa al inicio*/
 
-#productos_title{
+#productos_title {
     margin-top: 10px;
     font-size: 90px;
 }
 
 
-.compras img{
+.compras img {
     width: 300px;
     margin: 15px;
     border-radius: 30px;
 }
 
-.titulo_producto{
+.titulo_producto {
     text-align: center;
     margin: 2px;
     margin-top: 15px;
@@ -143,20 +150,20 @@ menu {
 
 }
 
-.talle{
-    font-size:  14px ;
+.talle {
+    font-size: 14px;
     color: white;
     padding-left: 20px;
 }
 
-.precio{
-    font-size:  20px ;
+.precio {
+    font-size: 20px;
     color: white;
     padding-left: 20px;
 }
 
 
-article{
+article {
     display: inline-block;
     padding: 10px;
     border: 3px solid white;
@@ -165,7 +172,7 @@ article{
     background-color: rgb(216, 40, 21);
 }
 
-.compras{
+.compras {
     margin-top: 35px;
     display: flex;
     justify-content: center;
@@ -174,4 +181,78 @@ article{
 #play {
     transition-property: background-color;
     transition-duration: 3s;
-    }
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+}
+
+h3 {
+    color: white;
+}
+
+.img_compra{
+    border-radius: 30px;
+    height: 500px;
+}
+
+.cuadrante_der{
+    display: inline-block;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 30px;
+    padding: 50px;
+    margin: 15px;
+    text-align: left;
+}
+
+.cuadrante_izq{
+    display: inline-block;
+    margin: 15px;
+    border: 3px solid rgb(82, 82, 82);
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.titulo_producto{
+    max-width: 100%;
+    padding: 10px;
+    background-color: rgb(192, 37, 20);
+    border-radius: 90px;
+}
+
+.contenedor_cuadrantes{
+    text-align: center;
+    display: flex;
+}
+
+.lista_talles{
+    margin: 20px;
+    margin-left: 5px;
+}
+
+.lista_talles li{
+    display: inline-block;
+    padding: 6px;
+    color: rgb(175, 175, 175);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 30px;
+    margin:2px ;
+    
+
+}
+
+.boton_comprar{
+    color: white;
+    max-width: 100%;
+    padding: 10px;
+    background-color: rgb(192, 37, 20);
+    border-radius: 90px;
+    font-size: 46px;
+}
+
+.descripcion_producto{
+    margin-top: 17px;
+}
